@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.27.243.247:5000/lleoni/go-download-innovation
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 service:
   name: go-download-innovation
